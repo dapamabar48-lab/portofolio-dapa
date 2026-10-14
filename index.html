@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Dafa</title>
+  
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">Dafa<span class="accent-text">WEB</span></a>
+            
+            <nav class="nav-links" id="nav-links">
+                <a href="#hero" class="nav-item active">Beranda</a>
+                <a href="#about" class="nav-item">Tentang</a>
+                <a href="#projects" class="nav-item">Proyek</a>
+                <a href="#skills" class="nav-item">Keahlian</a>
+                <a href="#contact" class="nav-item">Kontak</a>
+            </nav>
+
+            <button id="menu-btn" class="menu-btn" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="badge">
+                <i class="fa-solid fa-circle text-xs text-pink-400 animate-pulse"></i> Tersedia untuk Freelance & Full-time
+            </div>
+            <h1>Halo, Saya <span class="accent-text">Dafa</span></h1>
+            <p class="hero-desc">
+                Seorang <strong>Front-End Web Developer & UI Designer</strong> yang berfokus membangun aplikasi web performa tinggi dengan estetika desain modern.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">Jelajahi Proyek</a>
+                <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+            </div>
+        </div>
+    </section>
+
+  
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tentang Saya</h2>
+                <p>Mengenal latar belakang dan perjalanan saya di dunia teknologi</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card-img">
+                    <div class="img-placeholder">
+                        <i class="fa-solid fa-code text-5xl text-pink-300"></i>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <h3>Membangun Solusi Digital dengan Presisi</h3>
+                    <p>
+                        Saya memiliki pengalaman lebih dari 4 tahun dalam merancang dan mengembangkan aplikasi web dari nol hingga tahap produksi. Saya sangat peduli pada struktur kode yang bersih, aksesibilitas, serta pengalaman pengguna (UX) yang optimal.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h4 class="accent-text">1</h4>
+                            <p>Tahun Pengalaman</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="accent-text">2</h4>
+                            <p>Proyek Selesai</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="accent-text">-</h4>
+                            <p>Klien</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <section id="projects" class="section bg-dim">
+        <div class="container">
+            <div class="section-header">
+                <h2>Proyek Unggulan</h2>
+                <p>Beberapa karya pilihan yang telah saya kerjakan</p>
+            </div>
+
+           
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="web">Web App</button>
+                <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+            </div>
+
+            
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-img-box web-bg" style="height:580px; overflow:hidden;">
+                       <img src="PORTOFOLIO.png"  alt="portofolio" style="width:100%; object-fit:cover; display:block">
+                    </div>
+                    <div class="project-body">
+                        <h3>Web Portofolio</h3>
+                        <p>Web yang saya buat dengan Desain & Fungsi modern, dengan menggunakan HTML, CSS, dan JavaScript</p>
+                    <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>React</span>
+                            <span>CSS</span>
+                        </div>
+                      
+                        <div class="project-actions">
+                            <a href="https://example.com" target="_blank" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+    </section>
+
+   
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Keahlian & Teknologi</h2>
+                <p>Perangkat dan bahasa pemrograman yang saya kuasai</p>
+            </div>
+            <class class="skills-grid">
+                <div class="skill-box">
+                    <i class="fa-brands fa-html5 text-orange-500"></i>
+                    <span>HTML & CSS</span>
+                </div>
+                <div class="skill-box">
+                    <i class="fa-brands fa-js text-yellow-400"></i>
+                    <span>JavaScript</span>
+                </div>
+        
+                <div class="skill-box">
+                    <i class="fa-brands fa-git-alt text-red-500"></i>
+                    <span>GitHub</span>
+                </div>
+               </class>
+    </section>
+
+
+    <section id="contact" class="section bg-dim">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mari Berkolaborasi</h2>
+                <p>Kirimkan pesan langsung ke email saya</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                
+                <form id="contact-form" action="https://formsubmit.co/23227954b828d5543e607decf8db20e5" method="POST" class="contact-form">
+                    <input type="hidden" name="_subject" value="Pesan Baru dari Website Portofolio!">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" name="nama" placeholder="Masukkan nama Anda..." required>
+                   </div>
+
+                    <div class="form-group">
+                        <label for="email">Alamat Email Pengirim</label>
+                        <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="pesan" rows="5" placeholder="Tuliskan pesan atau detail proyek..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-full">Kirim Pesan via Email</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+   
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Dafa S.L Portofolio.</p>
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+  
+    <script src="script.js"></script>
+</body>
+</html>
