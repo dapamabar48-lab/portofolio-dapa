@@ -1,4 +1,4 @@
-// 1. Mobile Menu Toggle Fungsional
+
 const menuBtn = document.getElementById('menu-btn');
 const navLinks = document.getElementById('nav-links');
 
@@ -14,7 +14,7 @@ menuBtn.addEventListener('click', () => {
     }
 });
 
-// Menutup menu otomatis saat tautan navigasi diklik
+
 document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', () => {
         navLinks.classList.remove('active');
@@ -24,7 +24,7 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     });
 });
 
-// 2. Filter Proyek Fungsional
+
 const filterButtons = document.querySelectorAll('.filter-btn');
 const projectCards = document.querySelectorAll('.project-card');
 
@@ -45,7 +45,7 @@ filterButtons.forEach(button => {
     });
 });
 
-// 3. Scroll Spy untuk Highlight Menu Aktif secara Otomatis
+
 const sections = document.querySelectorAll('section');
 const navItems = document.querySelectorAll('.nav-item');
 
